@@ -2,13 +2,16 @@
 
     Top Banner logo section
 */
-.logo{
-    background: url("../img/header-bkg.jpg") repeat fixed center;    
+
+.logo {
+    background: url("../img/header-bkg.jpg") repeat fixed center;
 }
+
 
 /*
     Centering banner logo
 */
+
 .logo img {
     display: block;
     margin-left: auto;
@@ -19,6 +22,7 @@
 /*
     Nav section
 */
+
 .nav {
     background: url("../img/header-bkg.jpg") repeat fixed center;
 }
@@ -28,7 +32,7 @@
 }
 
 .nav ul {
-    margin: 1,5em;
+    margin: 1, 5em;
     display: inline-table;
 }
 
@@ -37,9 +41,11 @@
     display: inline;
 }
 
-/**
-    Makes the links in the nav looks like buttons
+
+/*
+    Makes the links in the nav look like buttons
 */
+
 .nav ul li a {
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -51,9 +57,76 @@
     text-decoration: none;
 }
 
+
+/*
+    CSS for sticky navbar
+*/
+
 .navbar-fixed {
-     top: 0;
+    top: 0;
     z-index: 100;
-  position: fixed;
+    position: fixed;
     width: 100%;
 }
+
+/*.parallax{
+   // width: 100%;
+    //height: 200px;
+    //background-color: azure;
+}*/
+
+.container {
+    margin: auto;
+    width: 60%;
+}
+
+
+/*
+    Footer section
+*/
+
+footer {
+    margin: auto;
+    width: 70%;
+    padding: 2px;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+/*
+    kilde liste formatering
+*/
+.kilder li {
+    list-style-type: none;
+}
+
+
+/*
+    Wiki CSS - formating the Definition List
+*/
+#wiki {  
+    float: right;
+    width: 450px;   
+}
+
+.wiki dl {
+    border: 3px double #ccc;
+    padding: 0.5em;
+  }
+  .wiki dt {
+    float: left;
+    clear: left;
+    width: 160px;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+  .wiki dt:after {
+    content: ": ";
+  }
+  .wiki dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
+
